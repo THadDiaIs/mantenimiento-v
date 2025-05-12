@@ -1,3 +1,5 @@
+import React from 'react';
+import LoginVehiculos from './Login';
 function App() {
   return (
     <main
@@ -75,7 +77,7 @@ function App() {
             Cuida de tu <br /> Vehiculo
           </h1>
         </div>
-
+        
         <div
           className="search-fields-container"
           style={{
@@ -95,6 +97,7 @@ function App() {
               display: "flex",
             }}
           >
+            <LoginVehiculos/>
             <input type="date" name="date" id="date" />
             <input type="date" name="date" id="date" />
             <input type="date" name="date" id="date" />
