@@ -1,5 +1,6 @@
 import React from 'react';
 import LoginVehiculos from './Login';
+import FormularioOrden from './Orden'
 function App() {
   return (
     <main
@@ -97,6 +98,7 @@ function App() {
               display: "flex",
             }}
           >
+            <FormularioOrden/>
             <LoginVehiculos/>
             <input type="date" name="date" id="date" />
             <input type="date" name="date" id="date" />
